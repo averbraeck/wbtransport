@@ -32,3 +32,10 @@ As the pom.xml file shows, it is dependent on:
 - org.openstreetmap.osmosis - osmosis-osm-binary 
 
 The main interactive program to run is `CentroidRoutesApp` for the version with or without animation. A special version to run from the EMA workbench is contained in `CentroidRoutesEMA`. The model with animation that is started from `CentroidRoutesApp` is `CentroidRoutesAnimationModel`. The model without animation is contained in `CentroidRoutesModel`. 
+
+To overcome a small problem (non-fatal) with the GeoTools 19.1 compatibility with Java9+ new security rules, add the following VM arguments:
+
+```
+--add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/jdk.internal.ref=ALL-UNNAMED
+```
+
