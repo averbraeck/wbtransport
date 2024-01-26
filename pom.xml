@@ -26,7 +26,7 @@
     <sim0mq.version>0.02.00</sim0mq.version>
     <junit.version>4.11</junit.version>
     <java3d.version>1.5.1</java3d.version>
-    <geotools.version>12.0</geotools.version>
+    <geotools.version>19.1</geotools.version>
     <osmosis.version>0.43.1</osmosis.version>
     <jfreechart.version>1.0.17</jfreechart.version>
     <xml-apis.version>1.4.01</xml-apis.version>
