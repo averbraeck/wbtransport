@@ -818,25 +818,25 @@
     <repository>
       <name>OTS Repository</name>
       <id>ots</id>
-      <url>http://opentrafficsim.org/maven</url>
+      <url>https://opentrafficsim.org/maven</url>
     </repository>
 
     <repository>
       <name>DSOL Public Repository</name>
       <id>dsol</id>
-      <url>http://simulation.tudelft.nl/maven</url>
+      <url>https://simulation.tudelft.nl/maven</url>
     </repository>
 
     <repository>
       <name>djunits Public Repository</name>
       <id>djunits</id>
-      <url>http://djunits.org/maven</url>
+      <url>https://djunits.org/maven</url>
     </repository>
 
     <repository>
       <name>sim0mq Public Repository</name>
       <id>sim0mq</id>
-      <url>http://sim0mq.org/maven</url>
+      <url>https://sim0mq.org/maven</url>
     </repository>
 
     <repository>
@@ -845,7 +845,7 @@
       </snapshots>
       <id>central</id>
       <name>Maven Repository Switchboard</name>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo1.maven.org/maven2</url>
     </repository>
 
     <repository>
@@ -854,29 +854,22 @@
       </snapshots>
       <id>apache</id>
       <name>apache</name>
-      <url>http://repo.maven.apache.org/maven2</url>
+      <url>https://repo.maven.apache.org/maven2</url>
     </repository>
 
     <repository>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <id>boundless</id>
-      <name>Boundless Maven Repository</name>
-      <url>http://repo.boundlessgeo.com/main</url>
-    </repository>
-
-    <repository>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
       <id>osgeo</id>
       <name>OSGeo Maven Repository</name>
-      <url>http://download.osgeo.org/webdav/geotools/</url>
+      <url>https://repo.osgeo.org/repository/geotools-releases</url>
     </repository>
-
+    
+    <repository>
+      <id>geosolutions</id>
+      <name>Boundless Maven Repository</name>
+      <url>https://maven.geo-solutions.it/</url>
+    </repository>
   </repositories>
-
+  
   <licenses>
     <license>
       <name>BSD-style license</name>
